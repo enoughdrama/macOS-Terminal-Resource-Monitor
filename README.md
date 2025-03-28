@@ -49,10 +49,6 @@ g++ -std=c++17 monitor.cpp -o monitor -framework IOKit -framework CoreFoundation
 When running, the monitor displays:
 
 ```
-=== macOS System Resource Monitor ===
-
-Time: 2025-03-28 15:30:45
-
 System Information:
   Model: MacBook Pro (16-inch, 2021)
   CPU: Apple M1 Pro
