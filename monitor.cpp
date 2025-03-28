@@ -538,12 +538,6 @@ int main() {
     
     while (true) {
         std::system("clear");
-        std::cout << TermColors::Bold + TermColors::Cyan + "=== macOS System Resource Monitor ===" + TermColors::Reset << std::endl << std::endl;
-        
-        time_t now = time(nullptr);
-        char time_str[100];
-        strftime(time_str, sizeof(time_str), "%Y-%m-%d %H:%M:%S", localtime(&now));
-        std::cout << "Time: " << time_str << std::endl << std::endl;
         
         auto sys_info = monitor.getSystemInfo();
         std::cout << TermColors::Bold + TermColors::Blue + "System Information:" + TermColors::Reset << std::endl;
